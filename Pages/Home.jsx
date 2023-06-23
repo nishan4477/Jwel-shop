@@ -1,5 +1,7 @@
 import React from 'react'
 import Categories from '../Component/Categories'
+import ProductList from '../Component/ProductList'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -44,9 +46,66 @@ const Home = () => {
         </div>
 
 
-
-
          {/* catagories ended */}
+
+         {/* new in started */}
+         <div className='py-3'>
+           <h2 className='pb-2 text-start'> NEW IN</h2>
+            <ProductList/>
+            <hr/>
+
+
+        </div>
+
+         {/* new in ended */}
+
+         {/* personalized services start */}
+         <div className='personalised py-3 text-light '>
+            <div className="row">
+                <div className="col-lg-4"><h3>PERSONALISED SERVICE</h3></div>
+                <div className="col-lg-4"><p>IF YOUR FINE JWELLERY SHOULD EVER REQUIRE SOME ALTERATIONS, WE'D BE MORE THAN PLEASED TO ROVIDE YOU WITH OUR BESPOKE SERVICES. PLEASE GET IN TOUCH WITH US</p></div>
+                <div className="col-lg-4"></div>
+            </div>
+            <div className="row">
+                <div className="col-lg-8"><button className='but mt-2 btn btn-dark btn-outline-light'>CONTACT US</button></div>
+                <div className="col-lg-4"></div>
+            </div>
+
+
+         </div>
+
+         {/* personalized services ended */}
+
+         {/* launch event page started */}
+         <div className="event border py-3">
+            <div className="row ">
+                <div className="col-lg-6">
+                    <h3>SOFT LAUNCH AT OLIVOCARNE RESTURANT ON ELIZABETH STREET</h3>
+                    <p>THE SLEEK AND ELEGANT SETTING OF OLIVOCRANE LENT A MAGIC TOUCH TO THE INITIAL PREVIEW OF OUR FINE JEWLLERY COLLECTION.</p>
+                    <Link to =""><small>GET AN INVITE <i className="fa-solid fa-arrow-right"></i></small></Link>
+                </div>
+
+                <div className="col-lg-6"><img className='w-100' src="https://images.unsplash.com/photo-1569921894261-ecda0b2cc1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=859&q=80" alt="" /></div>
+             
+            </div>
+            <hr />
+
+
+
+
+
+         </div>
+
+
+
+
+
+
+         {/* launch event page ended */}
+
+
+
+
         
         </div> 
     

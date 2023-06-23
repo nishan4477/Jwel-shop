@@ -46,7 +46,8 @@ const Footer = () => {
             </div>
         </div>
         <hr/>
-        <small>@copyright nishansakha</small>
+        <small>@copyright nishansakha</small><br/>
+        <img src="https://content.invisioncic.com/p289038/monthly_2021_09/1516160874_ScreenShot2021-09-14at12_37_36AM.png.d7c419bf833d655082effd031bfb630c.png" alt="" />
 
 
 
