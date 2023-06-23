@@ -119,8 +119,14 @@ ul {
         background-color: $black;
         h3{
             font-size: 48px;
+            margin-bottom: 50px;
+            @media (max-width:768px) {
+                margin-bottom: 0px;
+            }
+            
         }
         .but{
+            
             
             padding: 5px 300px;
             @media (max-width:480px) {
