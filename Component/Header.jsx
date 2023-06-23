@@ -13,7 +13,7 @@ const Header = () => {
             </div>
 
             <div className="col-lg-8">
-                <ul className='d-flex justify-content-start align-items-start gap-4'>
+                <ul className=' heads d-flex justify-content-start align-items-start gap-4'>
                     <li><Link to="">SHOP</Link></li>
                     <li><Link to="">COLLECTIONS</Link></li>
                     <li><Link to="">CONTACT US</Link></li>

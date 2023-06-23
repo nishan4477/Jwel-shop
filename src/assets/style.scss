@@ -36,7 +36,21 @@ ul {
             color: $red;
         }
     }
+    @media (max-width:768px) {
+        position: relative;
+     
+    }
+ 
 
+    .heads{
+        @media (max-width:480px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+        }
+    }
 
   }
 
