@@ -31,12 +31,12 @@ const ProductList = () => {
             {ProductData.map((b)=>(
                 <div className="card border border-0 ">
                 <div className="catbox text-start  ">
-                    <Link to=""><img className='w-100' src={b.image} ></img></Link> 
-                    <Link to=""> <p>{b.proname} <br />  <small className='text-danger ptminus'>$ {b.price}</small><br/><button className='btn btn-sm btn-dark'>Buy now</button></p></Link> 
+                    <Link to={`/details/${b.id}`}><img className='w-100' src={b.image} ></img></Link> 
+                    <Link to={`/details/${b.id}`}> <p>{b.proname} <br />  <small className='text-danger ptminus'>$ {b.price}</small><br/><button className='btn btn-sm btn-dark'>Buy now</button></p></Link> 
                     
                     <div className="caticon">
                         <ul  className="d-flex justify-content-center gap-5 align-items-center text-light">
-                           <Link to=""><li className="bg-danger px-2 rounded"><i className="fa-solid fa-heart"></i></li></Link> 
+                           <Link to=""><li className="bg-light px-2 rounded"><i className="fa-solid fa-heart"></i></li></Link> 
                            <Link to=""><li className="bg-light px-2 rounded"><i className="fa-solid fa-message"></i></li></Link> 
                           
                         </ul>

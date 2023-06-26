@@ -1,6 +1,13 @@
 import React from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import Home from '../Pages/Home';
+import ProductDetail from '../Pages/ProductDetail';
+import ContactUs from '../Pages/ContactUs';
+
+
+
+
+
 
 const Header = () => {
   return (
@@ -14,11 +21,11 @@ const Header = () => {
 
             <div className="col-lg-8">
                 <ul className=' heads d-flex justify-content-start align-items-start gap-4'>
-                    <li><Link to="">SHOP</Link></li>
-                    <li><Link to="">COLLECTIONS</Link></li>
-                    <li><Link to="">CONTACT US</Link></li>
-                    <li><Link to="">JOURNAL</Link></li>
-                    <li><Link to="">30%SALE</Link></li>
+                    <li><Link to=""spy={true} smooth={true} offset={-100} duration={500}>SHOP</Link></li>
+                    <li><Link to="" spy={true} smooth={true} offset={-100} duration={500}>COLLECTIONS</Link></li>
+                    <li><Link to="/contact" spy={true} smooth={true} offset={-100} duration={500}>CONTACT US</Link></li>
+                    <li><Link to="" spy={true} smooth={true} offset={-100} duration={500}>JOURNAL</Link></li>
+                    <li><Link to="" spy={true} smooth={true} offset={-100} duration={500}>30%SALE</Link></li>
 
                 </ul>
             </div>
@@ -43,6 +50,8 @@ const Header = () => {
   
    <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='/details/:id' element={<ProductDetail/>}></Route>
+        <Route path="/contact" element={<ContactUs/>}></Route>
         
       </Routes>
    </>

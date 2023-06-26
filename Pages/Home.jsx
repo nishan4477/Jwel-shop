@@ -63,7 +63,7 @@ const Home = () => {
          <div className='personalised py-3 text-light '>
             <div className="row">
                 <div className="col-lg-4"><h3>PERSONALISED SERVICE</h3></div>
-                <div className="col-lg-4"><p>IF YOUR FINE JWELLERY SHOULD EVER REQUIRE SOME ALTERATIONS, WE'D BE MORE THAN PLEASED TO ROVIDE YOU WITH OUR BESPOKE SERVICES. PLEASE GET IN TOUCH WITH US</p></div>
+                <div className="col-lg-4"><p>IF YOUR FINE JEWELRY SHOULD EVER REQUIRE SOME ALTERATIONS, WE'D BE MORE THAN PLEASED TO ROVIDE YOU WITH OUR BESPOKE SERVICES. PLEASE GET IN TOUCH WITH US</p></div>
                 <div className="col-lg-4"></div>
             </div>
             <div className="row">
@@ -80,8 +80,8 @@ const Home = () => {
          <div className="event border py-3">
             <div className="row ">
                 <div className="col-lg-6">
-                    <h3>SOFT LAUNCH AT OLIVOCARNE RESTURANT ON ELIZABETH STREET</h3>
-                    <p>THE SLEEK AND ELEGANT SETTING OF OLIVOCRANE LENT A MAGIC TOUCH TO THE INITIAL PREVIEW OF OUR FINE JEWLLERY COLLECTION.</p>
+                    <h3>SOFT LAUNCH AT OLIVOCARNE RESTAURANT ON ELIZABETH STREET</h3>
+                    <p>THE SLEEK AND ELEGANT SETTING OF OLIVOCRANE LENT A MAGIC TOUCH TO THE INITIAL PREVIEW OF OUR FINE JEWELER COLLECTION.</p>
                     <Link to =""><small>GET AN INVITE <i className="fa-solid fa-arrow-right"></i></small></Link>
                 </div>
 
