@@ -13,7 +13,7 @@ const ProductDetail = () => {
         <div className="row">
           {Prodetail.map((n)=>(
             <>
- <div className="col-lg-6"><img src={n.image}></img></div>
+ <div className="col-lg-6"><img className='detailsimg' src={n.image}></img></div>
  <div className="col-lg-6 px-3 "><h3 className='pt-3'>{n.proname}</h3><p className='text-danger'>$ {n.price}</p>
  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima odit quia illo necessitatibus. Officia amet dolore culpa, quod obcaecati ducimus excepturi. Porro ad et aliquam sapiente dolore molestias recusandae magnam!</p>
  SIZE: <select id="size" name="size">
