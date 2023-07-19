@@ -14,7 +14,7 @@ const Home = () => {
                         THE NEW LIFETIME CLASSIC                    </h2>
                         <p>WE HAVE A FRESH NEW MAKER LINEUP. DISCOVER FUN AND ORGANIC SHAPES FROM SASKIA BESIALOV, TYLOR KRUGEER & HENDRIX</p>
 
-                    <button className='btn my-4 btn-dark btn-outline-light btn-sm'>readmore</button>
+                    <button className='btn my-4 btn-dark  btn-sm'>readmore</button>
 
                 </div>
 

@@ -31,8 +31,10 @@ nav {
   a {
     &:hover {
       color: $red;
+      transition: 0.3s;
     }
   }
+  
   @media (max-width: 768px) {
     position: relative;
   }
@@ -164,4 +166,5 @@ footer {
 
 .detailsimg {
   width: 80%;
+  height: 400px;
 }
