@@ -2,6 +2,7 @@ import React from 'react'
 import Categories from '../Component/Categories'
 import ProductList from '../Component/ProductList'
 import { Link } from 'react-router-dom'
+import ContactUs from './ContactUs'
 
 const Home = () => {
   return (
@@ -67,7 +68,7 @@ const Home = () => {
                 <div className="col-lg-4"></div>
             </div>
             <div className="row">
-                <div className="col-lg-8"><button className='but mt-2 btn btn-dark btn-outline-light'>CONTACT US</button></div>
+                <div className="col-lg-8"><button className='but mt-2 btn btn-dark btn-outline-light'><Link to="/contact">CONTACT US</Link></button></div>
                 <div className="col-lg-4"></div>
             </div>
 
