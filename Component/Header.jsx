@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from '../Pages/Home';
 import ProductDetail from '../Pages/ProductDetail';
 import ContactUs from '../Pages/ContactUs';
+import {FaBars} from 'react-icons/fa' 
 
 
 
@@ -15,7 +16,7 @@ const Header = () => {
    <nav>
     <div className="container">
         <div className="row  d-flex align-items-center">
-            <div className="col-lg-2">
+            <div className="col-lg-2 logo">
               <Link to=""><h1>NISJWEL</h1></Link>  
             </div>
 
@@ -40,7 +41,7 @@ const Header = () => {
 
                 </ul>
             </div>
-         
+        
 
         </div>
 

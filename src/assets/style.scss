@@ -38,12 +38,27 @@ nav {
   @media (max-width: 768px) {
     position: relative;
   }
-
+.logo{
+  @media (max-width:768px){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
   .heads {
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items:center;
+      
+    }
+  }
+
+  .navbars{
+    display: none;
+    @media (max-width: 768px){
+      display: block;
     }
   }
 }
@@ -168,3 +183,5 @@ footer {
   width: 80%;
   height: 400px;
 }
+
+
