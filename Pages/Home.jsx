@@ -68,7 +68,7 @@ const Home = () => {
                 <div className="col-lg-4"></div>
             </div>
             <div className="row">
-                <div className="col-lg-8"><button className='but mt-2 btn btn-dark btn-outline-light'><Link to="/contact">CONTACT US</Link></button></div>
+                <div className="col-lg-8"><button className='but mt-2 text-light btn btn-dark btn-outline-light'><Link to="/contact">CONTACT US</Link></button></div>
                 <div className="col-lg-4"></div>
             </div>
 

@@ -20,48 +20,48 @@ a {
   color: black;
 }
 
-nav {
-  position: sticky;
-  top: 0px;
+// nav {
+//   position: sticky;
+//   top: 0px;
 
-  background-color: $white;
-  z-index: 99;
+//   background-color: $white;
+//   z-index: 99;
 
-  padding: 10px 5px;
-  a {
-    &:hover {
-      color: $red;
-      transition: 0.3s;
-    }
-  }
+//   padding: 5px 5px;
+//   a {
+//     &:hover {
+//       color: $red;
+//       transition: 0.3s;
+//     }
+//   }
   
-  @media (max-width: 768px) {
-    position: relative;
-  }
-.logo{
-  @media (max-width:768px){
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 10px;
-  }
-}
-  .heads {
-    @media (max-width: 768px) {
-      display: flex;
-      flex-direction: column;
-      align-items:center;
+//   @media (max-width: 768px) {
+//     position: relative;
+//   }
+// .logo{
+//   @media (max-width:768px){
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     margin-left: 10px;
+//   }
+// }
+//   .heads {
+//     @media (max-width: 768px) {
+//       display: flex;
+//       flex-direction: column;
+//       align-items:center;
       
-    }
-  }
+//     }
+//   }
 
-  .navbars{
-    display: none;
-    @media (max-width: 768px){
-      display: block;
-    }
-  }
-}
+//   .navbars{
+//     display: none;
+//     @media (max-width: 768px){
+//       display: block;
+//     }
+//   }
+// }
 
 footer {
   height: fit-content;
@@ -112,15 +112,17 @@ footer {
   }
   .caticon {
     position: absolute;
-    display: none;
+    display: none!important;
     top: 60%;
     left: -5%;
     width: 100%;
     color: $white;
+    transition: all 1s ease-in-out!important;
   }
 
   &:hover .caticon {
-    display: block;
+    display: block!important;
+    transition: all 1s ease-in-out!important;
   }
 }
 .personalised {

@@ -4,6 +4,9 @@ import Home from '../Pages/Home';
 import ProductDetail from '../Pages/ProductDetail';
 import ContactUs from '../Pages/ContactUs';
 import {FaBars} from 'react-icons/fa' 
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 
@@ -13,11 +16,11 @@ import {FaBars} from 'react-icons/fa'
 const Header = () => {
   return (
    <>
-   <nav>
+   {/* <nav>
     <div className="container">
         <div className="row  d-flex align-items-center">
             <div className="col-lg-2 logo">
-              <Link to=""><h1>NISJWEL</h1></Link>  
+              <Link to=""><h1 className='fs-3'>NISJWEL</h1></Link>  
             </div>
 
             <div className="col-lg-8">
@@ -47,7 +50,20 @@ const Header = () => {
 
 
     </div>
-   </nav>
+   </nav> */}
+
+<Navbar className='sticky-top' bg="light" data-bs-theme="light">
+        <Container>
+          <Navbar.Brand className='fs-2' href="/">Nishjwel</Navbar.Brand>
+          <Nav className="ms-auto me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#features">Shop</Nav.Link>
+            <Nav.Link href="#features">Collection</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav.Link href=""><i className="fa-solid fa-bag-shopping"></i></Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
 
   
    <Routes>
